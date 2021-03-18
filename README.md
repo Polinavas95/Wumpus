@@ -1,7 +1,7 @@
-##Project Title
+## Project Title
 Hunt the Wumpus is a classic text-based computer game written by Gregory Yob in 1972. The goal of this game is to travel through the maze and kill Wampus.
 
-##About a Game
+## About a Game
 
 The Wumpus live in a cave of many rooms: each room has 3 tunnels leading to other rooms. Cave rooms are generated randomly (even Wampus himself is often lost in his house).
 
@@ -15,21 +15,21 @@ There are arrows left over from a past guest in one of the rooms. Hope you have 
 
 If you are near a Wumpus or bat room, you will smell bad or hear the rustling of wings.
 
-###Getting Started
+### Getting Started
 These instructions will allow you to run a copy of the project on your local computer for further development and supplementing the game with new ideas.
 
-###Prerequisites
+### Prerequisites
 What things you need to install the software and how to install them
 
-###Clone the repository;
+### Clone the repository;
 Activate the virtual environment and install all required packages.
 
-###Installing
+### Installing
 Activate the virtual environment and install all required packages using the following commands:
 
 pip install -r requirements.txt.
 
-###Acknowledgments
+### Acknowledgments
 Don't be afraid to try new things
 Learn interesting
 
