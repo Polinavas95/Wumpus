@@ -132,7 +132,7 @@ def new_game(player_name):
     print('Желаете попробовать еще раз?')
     answer = input('> ')
     if 'да' in answer.lower():
-        game(player_name)
+        return game(player_name)
     return print('До новых встреч')
 
 
