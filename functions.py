@@ -28,7 +28,6 @@ def welcome_player():
                 wrong_answer = False
             else:
                 count += 1
-                # print(count)
             if count > 5:
                 wrong_answer = False
                 return print('Возвращайся, когда перестанешь хулиганить =)')
@@ -69,7 +68,6 @@ def create_wumpus_awakening(caves, super_bat_1, super_bat_2, deep_pit, player_lo
         print('О нет! Вампус нашел вас!')
         return new_game(player_name)
     print('Нужно двигаться дальше.')
-    # print('wumpus_location', wumpus_location)
     return question(caves, wumpus_location, super_bat_1, super_bat_2, deep_pit,
                     player_location, player_name, arrows, add_arrows)
 
@@ -104,14 +102,6 @@ def game(player_name):
     while player_location == add_arrows or player_location == super_bat_1 \
             or player_location == super_bat_2 or player_location == wumpus_location or player_location == deep_pit:
         player_location = create_locations(caves)
-
-    # print('caves', caves)
-    # print('player_location', player_location)
-    # print('super_bat1', super_bat_1)
-    # print('super_bat2', super_bat_2)
-    # print('deep_pit', deep_pit)
-    # print('add_arrows', add_arrows)
-    # print('wumpus_location', wumpus_location)
 
     if begin:
         print(
