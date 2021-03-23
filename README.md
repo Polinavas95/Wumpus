@@ -34,3 +34,8 @@ Don't be afraid to try new things
 Learn interesting
 
 Have a good game! :)
+
+### P.S. 
+In the near future, the game code will be rewritten to be more readable and usable (using a state machine). Then it is planned to transfer the game to telegrams (using a chat bot) for ease of use. The diagram is given below.
+
+![Image](https://github.com/Polinavas95/Wumpus/image.jpg)
